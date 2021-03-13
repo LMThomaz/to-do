@@ -44,7 +44,7 @@ section.task-list {
         font-weight: 600;
         border-radius: 8px;
         border: 0;
-        background: var(--green);
+        background: var(--shapes);
         color: var(--background);
         display: flex;
         flex-direction: row;
@@ -134,7 +134,7 @@ section.task-list {
                 content: '';
                 position: absolute;
                 display: none;
-                left: 4px;
+                left: 3.5px;
                 top: 1px;
                 width: 3px;
                 height: 6px;
@@ -151,12 +151,13 @@ section.task-list {
           border: 0;
 
           svg {
-            color: var(--red);
+            color: var(--text);
+            transition: color 160ms ease-in-out;
           }
 
           &:hover {
             svg {
-              filter: brightness(0.5);
+              color: var(--red);
             }
           }
         }
