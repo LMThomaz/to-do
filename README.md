@@ -118,6 +118,7 @@ Feito com 💜 por <a href="https://www.linkedin.com/in/leonardo-thomaz/" target
 </h4>
 
 [url-ts]: https://www.typescriptlang.org/
+[url-zip]: https://github.com/LMThomaz/to-do/archive/main.zip
 [url-node]: https://nodejs.org/
 [url-next]: https://nextjs.org/docs
 [url-react]: https://reactjs.org/
